@@ -60,14 +60,20 @@ module ctrl(Op, Funct7, Funct3, Zero,
   // sb format 1100011
     wire sbtype  = Op[6]&Op[5]&~Op[4]&~Op[3]&~Op[2]&Op[1]&Op[0];//1100011
     wire i_beq  = sbtype& ~Funct3[2]& ~Funct3[1]&~Funct3[0]; // beq 000
-
+    wire i_bne = sbtype&~Funct3[2]&~Funct3[1]&Funct3[0]; 
+    wire i_blt = sbtype&Funct3[2]&~Funct3[1]&~Funct3[0]; 
+    wire i_bge = sbtype&Funct3[2]&~Funct3[1]&Funct3[0]; 
+    wire i_bltu = sbtype&Funct3[2]&Funct3[1]&~Funct3[0]; 
+    wire i_bgeu = sbtype&Funct3[2]&Funct3[1]&Funct3[0]; 
+     
   // j format
     wire i_jal  = Op[6]& Op[5]&~Op[4]& Op[3]& Op[2]& Op[1]& Op[0];  // jal 1101111
+    wire i_jalr = Op[6]&Op[5]&~Op[4]&~Op[3]&Op[2]&Op[1]&Op[0];
 
   // generate control signals
-  assign RegWrite   = rtype | itype_r | LUI | itype_l; // register write
+  assign RegWrite   = rtype | itype_r | LUI | itype_l | i_jal | i_jalr; // register write
   assign MemWrite   = stype;                           // memory write
-  assign ALUSrc     = itype_r | LUI | itype_l | stype;   // ALU B is from instruction immediate
+  assign ALUSrc     = itype_r | LUI | itype_l | stype | i_jal | i_jalr;   // ALU B is from instruction immediate
 
   // signed extension
   // EXT_CTRL_ITYPE_SHAMT 6'b100000
@@ -77,7 +83,7 @@ module ctrl(Op, Funct7, Funct3, Zero,
   // EXT_CTRL_UTYPE	      6'b000010
   // EXT_CTRL_JTYPE	      6'b000001
   assign EXTOp[5]    = i_slli | i_srli | i_srai;
-  assign EXTOp[4]    = i_addi | i_andi | i_ori | i_xori | i_slti | i_sltui | itype_l;
+  assign EXTOp[4]    = i_addi | i_andi | i_ori | i_xori | i_slti | i_sltui | itype_l | i_jalr;
   assign EXTOp[3]    = stype; 
   assign EXTOp[2]    = sbtype; 
   assign EXTOp[1]    = LUI;
@@ -86,14 +92,14 @@ module ctrl(Op, Funct7, Funct3, Zero,
   // WDSel_FromALU 2'b00
   // WDSel_FromMEM 2'b01
   // WDSel_FromPC  2'b10 
-    assign WDSel[1] = i_jal;
+    assign WDSel[1] = i_jal | i_jalr;
     assign WDSel[0] = itype_l;
 
   // NPC_PLUS4   3'b000
   // NPC_BRANCH  3'b001
   // NPC_JUMP    3'b010
   // NPC_JALR	   3'b100
-    assign NPCOp[2] = 0;
+    assign NPCOp[2] = i_jalr;
     assign NPCOp[1] = i_jal;
     assign NPCOp[0] = sbtype & Zero;
 
@@ -108,9 +114,9 @@ module ctrl(Op, Funct7, Funct3, Zero,
 // ALUOp_srl 5'b10000
 // ALUOp_sra 5'b10001
     assign ALUOp[4] = i_srl | i_sra | i_srli | i_srai;
-    assign ALUOp[3] = i_and | i_andi | i_or | i_ori | i_sll| i_slli | i_xor | i_xori | i_slt | i_sltu | i_slti | i_sltui;
-    assign ALUOp[2] = i_and | i_andi| i_or | i_ori | i_sub | i_beq | i_sll | i_slli | i_xor | i_xori;
-    assign ALUOp[1] = i_addi | i_add | i_and | i_andi | i_sll | i_slli | itype_l | stype | i_slt | i_sltu | i_slti | i_sltui;
-	  assign ALUOp[0] = i_addi | i_add | i_or | i_ori | LUI | i_sll | i_slli | i_sra | i_srai | itype_l | stype | i_sltu | i_sltui;
+    assign ALUOp[3] = i_and | i_andi | i_or | i_ori | i_sll| i_slli | i_xor | i_xori | i_slt | i_sltu | i_slti | i_sltui | i_bltu | i_bgeu;
+    assign ALUOp[2] = i_and | i_andi| i_or | i_ori | i_sub | i_beq | i_sll | i_slli | i_xor | i_xori | i_beq | i_bne | i_blt | i_bge;
+    assign ALUOp[1] = i_addi | i_add | i_and | i_andi | i_sll | i_slli | itype_l | stype | i_slt | i_sltu | i_slti | i_sltui | i_jalr | i_blt | i_bge;
+	  assign ALUOp[0] = i_addi | i_add | i_or | i_ori | LUI | i_sll | i_slli | i_sra | i_srai | itype_l | stype | i_sltu | i_sltui | i_jalr | i_bne | i_bge | i_bgeu;
 
 endmodule

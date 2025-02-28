@@ -71,7 +71,7 @@ module SCCPU(
 	);
  // instantiation of pc unit
 	PC  U_PC(.clk(clk), .rst(reset), .NPC(NPC), .PC(PC_out) );
-	NPC U_NPC(.PC(PC_out), .NPCOp(NPCOp), .IMM(immout), .NPC(NPC));
+	NPC U_NPC(.PC(PC_out), .NPCOp(NPCOp), .IMM(immout), .aluout(aluout), .NPC(NPC));
 	EXT U_EXT(
 		.iimm(iimm), .simm(simm), .bimm(bimm), .uimm(uimm), .jimm(jimm),
 		.EXTOp(EXTOp), .immout(immout)

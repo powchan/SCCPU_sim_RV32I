@@ -22,27 +22,6 @@ Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
 Top level modules:
 	EXT
 
-} {} {}} D:/codtest/demo/sccpu_sim/project/NPC.v {1 {vlog -work work -vopt -stats=none D:/codtest/demo/sccpu_sim/project/NPC.v
-Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
--- Compiling module NPC
-
-Top level modules:
-	NPC
-
-} {} {}} D:/codtest/demo/sccpu_sim/project/alu.v {1 {vlog -work work -vopt -stats=none D:/codtest/demo/sccpu_sim/project/alu.v
-Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
--- Compiling module alu
-
-Top level modules:
-	alu
-
-} {} {}} D:/codtest/demo/sccpu_sim/project/ctrl.v {1 {vlog -work work -vopt -stats=none D:/codtest/demo/sccpu_sim/project/ctrl.v
-Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
--- Compiling module ctrl
-
-Top level modules:
-	ctrl
-
 } {} {}} D:/codtest/demo/sccpu_sim/project/sccomp.v {1 {vlog -work work -vopt -stats=none D:/codtest/demo/sccpu_sim/project/sccomp.v
 Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
 -- Compiling module sccomp
@@ -56,13 +35,6 @@ Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
 
 Top level modules:
 	im
-
-} {} {}} D:/codtest/demo/sccpu_sim/project/SCCPU.v {1 {vlog -work work -vopt -stats=none D:/codtest/demo/sccpu_sim/project/SCCPU.v
-Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
--- Compiling module SCCPU
-
-Top level modules:
-	SCCPU
 
 } {} {}} D:/codtest/demo/sccpu_sim/project/dm.v {1 {vlog -work work -vopt -stats=none D:/codtest/demo/sccpu_sim/project/dm.v
 Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016

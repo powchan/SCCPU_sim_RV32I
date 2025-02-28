@@ -43,13 +43,6 @@ Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
 Top level modules:
 	ctrl
 
-} {} {}} D:/codtest/demo/sccpu_sim/project/sccomp.v {1 {vlog -work work -vopt -stats=none D:/codtest/demo/sccpu_sim/project/sccomp.v
-Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
--- Compiling module sccomp
-
-Top level modules:
-	sccomp
-
 } {} {}} D:/codtest/demo/sccpu_sim/project/SCCPU.v {1 {vlog -work work -vopt -stats=none D:/codtest/demo/sccpu_sim/project/SCCPU.v
 Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
 -- Compiling module SCCPU

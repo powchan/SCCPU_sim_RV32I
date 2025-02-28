@@ -1,0 +1,208 @@
+m255
+K3
+13
+cModel Technology
+dD:\codtest\project02
+valu
+V=>>0zXZ86Y::F<Z7E=ozS2
+r1
+31
+I=C[HO2_B<UEaQAWhT`RaN2
+Z0 dD:\codtest\demo\sccpu_sim\project
+w1738901859
+8D:/codtest/demo/sccpu_sim/project/alu.v
+FD:/codtest/demo/sccpu_sim/project/alu.v
+L0 3
+Z1 OE;L;10.1a;51
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s85 0
+!s100 k]B8I@fZXlkMnoQU6mB5J2
+!s90 -reportprogress|300|-work|work|-vopt|D:/codtest/demo/sccpu_sim/project/alu.v|
+!s108 1739438270.586000
+!s107 ctrl_encode_def.v|D:/codtest/demo/sccpu_sim/project/alu.v|
+vctrl
+V>mGa4772Y[FeoM@jA^G6N3
+r1
+31
+Ib1_@=W0;5P4nXeOcYC=VY3
+Z3 dD:\codtest\demo\sccpu_sim\project
+w1739417803
+8D:/codtest/demo/sccpu_sim/project/ctrl.v
+FD:/codtest/demo/sccpu_sim/project/ctrl.v
+L0 3
+R1
+R2
+!i10b 1
+!s85 0
+!s100 Rij4o_PhnYCk2k<<IUbZ=0
+!s90 -reportprogress|300|-work|work|-vopt|D:/codtest/demo/sccpu_sim/project/ctrl.v|
+!s108 1739438270.656000
+!s107 ctrl_encode_def.v|D:/codtest/demo/sccpu_sim/project/ctrl.v|
+vdm
+V7?>g5VdCaTFVF?2bZn6ko3
+r1
+31
+IeG4X_?N<O5Oo:il?g>]Wl0
+R3
+w1739064773
+8D:/codtest/demo/sccpu_sim/project/dm.v
+FD:/codtest/demo/sccpu_sim/project/dm.v
+L0 3
+R1
+R2
+!i10b 1
+!s85 0
+!s100 jQ]_niTn^b?Hgl3JE^>:F2
+!s90 -reportprogress|300|-work|work|-vopt|D:/codtest/demo/sccpu_sim/project/dm.v|
+!s108 1739438270.785000
+!s107 ctrl_encode_def.v|D:/codtest/demo/sccpu_sim/project/dm.v|
+vEXT
+V0M8kcTA:AIEEW5XlbnYao3
+r1
+31
+I<m7KajkPPgTz@bCSof`G=2
+R3
+w1739418222
+8D:/codtest/demo/sccpu_sim/project/EXT.v
+FD:/codtest/demo/sccpu_sim/project/EXT.v
+L0 2
+R1
+R2
+n@e@x@t
+!i10b 1
+!s85 0
+!s100 ?98jET0D?hllH_??E><:F1
+!s90 -reportprogress|300|-work|work|-vopt|D:/codtest/demo/sccpu_sim/project/EXT.v|
+!s108 1739438270.862000
+!s107 ctrl_encode_def.v|D:/codtest/demo/sccpu_sim/project/EXT.v|
+vim
+!i10b 1
+VZST0665RFK3[jglSk:KFz1
+r1
+!s85 0
+31
+IiCl4Jl>Mi2O`:ejk]9SWK0
+R3
+w1738914028
+8D:/codtest/demo/sccpu_sim/project/im.v
+FD:/codtest/demo/sccpu_sim/project/im.v
+L0 2
+R1
+R2
+!s100 j_C>KUFC470X5zoX5C:Jo0
+!s90 -reportprogress|300|-work|work|-vopt|D:/codtest/demo/sccpu_sim/project/im.v|
+!s108 1739438270.925000
+!s107 D:/codtest/demo/sccpu_sim/project/im.v|
+vNPC
+V^:zaP5Q9HW]:?a_SzL]fF3
+r1
+31
+I3adGNOK@^b3hSk:Wg5SLU1
+R3
+w1739417979
+8D:/codtest/demo/sccpu_sim/project/NPC.v
+FD:/codtest/demo/sccpu_sim/project/NPC.v
+L0 3
+R1
+R2
+n@n@p@c
+!i10b 1
+!s85 0
+!s100 WgDBl^1zD8Q1PEZLDOK2n0
+!s90 -reportprogress|300|-work|work|-vopt|D:/codtest/demo/sccpu_sim/project/NPC.v|
+!s108 1739438270.989000
+!s107 ctrl_encode_def.v|D:/codtest/demo/sccpu_sim/project/NPC.v|
+vPC
+Vz>ZmmiZ`iG:Zc`EOFokET3
+r1
+31
+Ieoc`9nWNAkFeo?Q37^::=3
+R3
+w1738896038
+8D:/codtest/demo/sccpu_sim/project/PC.v
+FD:/codtest/demo/sccpu_sim/project/PC.v
+L0 1
+R1
+R2
+n@p@c
+!i10b 1
+!s85 0
+!s100 WXVBhd7BAWZ0]haGHzVc61
+!s90 -reportprogress|300|-work|work|-vopt|D:/codtest/demo/sccpu_sim/project/PC.v|
+!s108 1739438271.055000
+!s107 D:/codtest/demo/sccpu_sim/project/PC.v|
+vRF
+VEWJn__zm[8SS3Z@zFLOZT3
+r1
+31
+I7]PXIW@<9<AQgBL9bHdlE0
+R3
+w1739438206
+8D:\codtest\demo\sccpu_sim\project\RF.v
+FD:\codtest\demo\sccpu_sim\project\RF.v
+L0 1
+R1
+R2
+n@r@f
+!i10b 1
+!s85 0
+!s100 [VSn3dd]5PNP>>GD_KnC13
+!s108 1739438271.117000
+!s107 D:\codtest\demo\sccpu_sim\project\RF.v|
+!s90 -reportprogress|300|-work|work|-vopt|D:\codtest\demo\sccpu_sim\project\RF.v|
+vsccomp
+VWb?5KeFJ@;A0RF1oHneng1
+r1
+31
+IK:4H?g?]IZ=XL_o526nzB3
+R3
+w1739438239
+8D:\codtest\demo\sccpu_sim\project\sccomp.v
+FD:\codtest\demo\sccpu_sim\project\sccomp.v
+L0 2
+R1
+R2
+!i10b 1
+!s85 0
+!s100 @N>k3bC1o43j=D@5OE]@[3
+!s108 1739438271.181000
+!s107 ctrl_encode_def.v|D:\codtest\demo\sccpu_sim\project\sccomp.v|
+!s90 -reportprogress|300|-work|work|-vopt|D:\codtest\demo\sccpu_sim\project\sccomp.v|
+vsccomp_tb
+VciK9E@b07zQnz0QWN@GCk0
+r1
+31
+IW<oPZ@R;mfQgjJ=5__IFc1
+R3
+w1739438010
+8D:/codtest/demo/sccpu_sim/project/sccomp_tb.v
+FD:/codtest/demo/sccpu_sim/project/sccomp_tb.v
+L0 2
+R1
+R2
+!i10b 1
+!s85 0
+!s100 fJmVo_BdfYEmR:gQg8I800
+!s90 -reportprogress|300|-work|work|-vopt|D:/codtest/demo/sccpu_sim/project/sccomp_tb.v|
+!s108 1739438271.246000
+!s107 D:/codtest/demo/sccpu_sim/project/sccomp_tb.v|
+vSCCPU
+V9ODnLaUM6RSl?TKiV;mZF1
+r1
+31
+I;AK^nn`jb78kOVg[:4InI3
+R3
+w1739438297
+8D:\codtest\demo\sccpu_sim\project\SCCPU.v
+FD:\codtest\demo\sccpu_sim\project\SCCPU.v
+L0 2
+R1
+R2
+n@s@c@c@p@u
+!i10b 1
+!s85 0
+!s100 @F^[NmeOakFH3EPAG8h2c2
+!s108 1739438307.687000
+!s107 ctrl_encode_def.v|D:\codtest\demo\sccpu_sim\project\SCCPU.v|
+!s90 -reportprogress|300|-work|work|-vopt|D:\codtest\demo\sccpu_sim\project\SCCPU.v|

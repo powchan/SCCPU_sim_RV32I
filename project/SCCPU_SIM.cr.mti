@@ -1,0 +1,81 @@
+D:/codtest/demo/sccpu_sim/project/PC.v {1 {vlog -work work -vopt D:/codtest/demo/sccpu_sim/project/PC.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} D:/codtest/demo/sccpu_sim/project/ctrl_encode_def.v {1 {vlog -work work -vopt D:/codtest/demo/sccpu_sim/project/ctrl_encode_def.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+
+} {} {}} D:/codtest/demo/sccpu_sim/project/RF.v {1 {vlog -work work -vopt {D:\codtest\demo\sccpu_sim\project\RF.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module RF
+
+Top level modules:
+	RF
+
+} {} {}} D:/codtest/demo/sccpu_sim/project/EXT.v {1 {vlog -work work -vopt D:/codtest/demo/sccpu_sim/project/EXT.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module EXT
+
+Top level modules:
+	EXT
+
+} {} {}} D:/codtest/demo/sccpu_sim/project/NPC.v {1 {vlog -work work -vopt D:/codtest/demo/sccpu_sim/project/NPC.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module NPC
+
+Top level modules:
+	NPC
+
+} {} {}} D:/codtest/demo/sccpu_sim/project/alu.v {1 {vlog -work work -vopt D:/codtest/demo/sccpu_sim/project/alu.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} D:/codtest/demo/sccpu_sim/project/ctrl.v {1 {vlog -work work -vopt D:/codtest/demo/sccpu_sim/project/ctrl.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} D:/codtest/demo/sccpu_sim/project/sccomp.v {1 {vlog -work work -vopt {D:\codtest\demo\sccpu_sim\project\sccomp.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module sccomp
+
+Top level modules:
+	sccomp
+
+} {} {}} D:/codtest/demo/sccpu_sim/project/im.v {1 {vlog -work work -vopt D:/codtest/demo/sccpu_sim/project/im.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} D:/codtest/demo/sccpu_sim/project/SCCPU.v {1 {vlog -work work -vopt {D:\codtest\demo\sccpu_sim\project\SCCPU.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module SCCPU
+
+Top level modules:
+	SCCPU
+
+} {} {}} D:/codtest/demo/sccpu_sim/project/dm.v {1 {vlog -work work -vopt D:/codtest/demo/sccpu_sim/project/dm.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} D:/codtest/demo/sccpu_sim/project/sccomp_tb.v {1 {vlog -work work -vopt D:/codtest/demo/sccpu_sim/project/sccomp_tb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module sccomp_tb
+
+Top level modules:
+	sccomp_tb
+
+} {} {}}

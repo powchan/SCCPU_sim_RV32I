@@ -12,6 +12,7 @@ module EXT(
 
 always  @(*)
 	 case (EXTOp)
+	 	`EXT_CTRL_ITYPE_SHAMT:	immout <= {7'b0, iimm[4:0]};
 		`EXT_CTRL_ITYPE:	immout <= {{20{iimm[11]}}, iimm[11:0]};
 		`EXT_CTRL_STYPE:	immout <= {{20{simm[11]}}, simm[11:0]};
 		`EXT_CTRL_BTYPE:    immout <= {{19{bimm[11]}}, bimm[11:0], 1'b0};

@@ -76,8 +76,8 @@ module ctrl(Op, Funct7, Funct3, Zero,
   // EXT_CTRL_BTYPE	      6'b000100
   // EXT_CTRL_UTYPE	      6'b000010
   // EXT_CTRL_JTYPE	      6'b000001
-  assign EXTOp[5]    = 0;
-  assign EXTOp[4]    = i_addi | itype_l;
+  assign EXTOp[5]    = i_slli | i_srli | i_srai;
+  assign EXTOp[4]    = i_addi | i_andi | i_ori | i_xori | i_slti | i_sltui | itype_l;
   assign EXTOp[3]    = stype; 
   assign EXTOp[2]    = sbtype; 
   assign EXTOp[1]    = LUI;

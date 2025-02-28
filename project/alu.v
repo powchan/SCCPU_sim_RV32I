@@ -20,6 +20,8 @@ module alu(A, B, ALUOp, C, Zero);
       `ALUOp_sll:C=A<<B;
       `ALUOp_srl:C=A>>B;
       `ALUOp_sra:C=A>>>B;
+      `ALUOp_slt:C=($signed(A) < $signed(B)) ? 32'b1 : 32'b0;
+      `ALUOp_sltu:C=($unsigned(A) < $unsigned(B)) ? 32'b1 : 32'b0;
       default: C=A;
       endcase
    end // end always

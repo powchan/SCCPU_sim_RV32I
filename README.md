@@ -1,5 +1,8 @@
 # SCCPU_SIM_RISCV32
-基于RISCV32的单周期CPU设计，使用Verilog语言。
+基于RISCV32的单周期CPU设计，使用Verilog语言。  
+速通版教程： https://b23.tv/ySQz5pU  
+恐龙版详细教程：https://b23.tv/Rliw4tV  
+
 ## 工程架构
 ### source
 这里存放着所有必须的源代码和测试文件，但实际上程序并不靠这里的代码运行。
